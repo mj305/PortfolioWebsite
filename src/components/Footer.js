@@ -20,11 +20,15 @@ export default function Footer() {
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
           </div>
+
+          {/*Submitt Button*/}
           <ul className="actions">
             <li>
               <input type="submit" value="Send Message" />
             </li>
           </ul>
+
+
         </form>
         <ul className="contact">
           <li className="fa-home">{config.address}</li>
