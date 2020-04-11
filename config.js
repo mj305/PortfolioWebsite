@@ -31,7 +31,7 @@ module.exports = {
     {
       icon: 'fa-file',
       name: 'Resume',
-      url: 'CAN I DOWNLOAD RESUME?????',
+      url: 'MariaBecklesWebDevelopmentResume',
     },
   ],
   phone: '(786)366-9257',
