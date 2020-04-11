@@ -5,7 +5,6 @@ export default function Footer() {
     <section id="footer">
       <div className="inner">
         <h2 className="major">Get in touch</h2>
-        <p>SHOULD I PUT SOMETHING HERE?????</p>
         <form method="post" action="/#">
           <div className="fields">
             <div className="field">

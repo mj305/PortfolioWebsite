@@ -31,7 +31,7 @@ const IndexPage = () => (
         <div className="inner">
 
           <a href="https://s0ft-search.herokuapp.com/" target="blank" className="image">
-            <img src={softsearchlogo} alt="" />
+            <img src={softsearchlogo} alt="Soft Search Logo" />
           </a>
           <div className="content">
             <h2 className="major">Soft Search</h2>
@@ -58,7 +58,7 @@ const IndexPage = () => (
         <div className="inner">
 
           <a href="https://eltaco.herokuapp.com/" target="blank" className="image">
-            <img src={eltacologo} alt="" />
+            <img src={eltacologo} alt="El Taco Logo " />
           </a>
           <div className="content">
             <h2 className="major">El Taco</h2>

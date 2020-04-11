@@ -14,52 +14,69 @@ const IndexPage = () => (
       <header>
         <div className="inner">
           <h2>About Me</h2>
-          <p>&lt; THIS IS THE ABOUT ME / &gt;</p>
-          
+          <h3>&lt; Maria Beckles/ &gt;</h3>
+          <p>&lt; Certified Scrum Master and Product Owner / &gt;</p>
+          <p>&lt; Aspiring Web Developer / &gt;</p>
         </div>
       </header>
 
       <div className="wrapper">
         <div className="inner">
-          <h3 className="major">PROFESSIONAL VALUE</h3>
 
 						<p>
               <span className="image left">
-                <img src={aboutpic} alt="" />
+                <img src={aboutpic} alt="Maria Beckles"/>
                 </span>
                 
-                Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. 
-                Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. 
-                Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, 
-                id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus 
-                sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. 
-                Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada 
-                fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. 
-                Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non 
-                velit accumsan cursus. Etiam ut gravida sapien. Morbi mattis mi consectetur tortor elementum, varius 
-                pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum 
-                tempor.
+                I don’t like to define myself by the work I’ve done. 
+                I define myself by the work I want to do. Skills can 
+                be taught, personality is inherent. I prefer to keep 
+                learning, continue challenging myself, and do 
+                interesting things that matter.
+                </p>
+
+            <p>
+                Fueled by high energy levels and boundless enthusiasm, 
+                I’m easily inspired and more then willing to follow my 
+                fascinations wherever they take me. I’m passionate, 
+                expressive, multi-talented spirit with a natural ability 
+                to entertain and inspire. I’m never satisfied to just come 
+                up with ideas. Instead I have an almost impulsive need 
+                to act on them.
+            </p>
+            
+            <p>
+                My abundant energy fuels me in the pursuit of many interests, 
+                hobbies, areas of study and artistic endeavors. I’m a fast 
+                learner, able to pick up new skills and juggle different 
+                projects and roles with relative ease. I like to develop 
+                expertise in a number of areas over the course of my life 
+                and career.
             </p>
 
-						<p>
-              <span className="image right">
-                <img src={profilepic} alt="" />
-                </span>
-                Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. 
-                Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, 
-                eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. 
-                Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna, sagittis at facilisis vitae, 
-                pellentesque at etiam.Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. 
-                Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, 
-                eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. 
-                Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna, sagittis at facilisis vitae, 
-                pellentesque at etiam.
+            <p>
+                I'm also a multi-cultural leader and process improvement with 
+                over 16 years of experiences management, operations, recruiter, 
+                project manager, aspiring developer, music enthusiast, 
+                traveler, and more I’m a people-person with 
+                deep emotions and empathy; I’m able to inspire and be at 
+                my best when I’m colaborating  with others. 
             </p>
+
+
 
             <ul className="actions">
-							<li><a href={MariaBecklesWebDevelopmentResume} target="blank" className="button primary icon fa-download">Resume</a></li>
-              <li><a href="https://github.com/mj305" target="blank" className="button icon fa-download">GitHub</a></li>
+							<li>
+                <a href={MariaBecklesWebDevelopmentResume} target="blank" className="button primary icon fa-download">
+                  Resume
+                  </a>
+              </li>
 
+              <li>
+                <a href="https://github.com/mj305" target="blank" className="button icon fa-download">
+                  GitHub
+                </a>
+              </li>
 						</ul>
 					
             

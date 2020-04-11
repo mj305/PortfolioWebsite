@@ -28,11 +28,15 @@ module.exports = {
       name: 'Email',
       url: 'maria@mariabeckles.com',
     },
+
+    {/*
     {
       icon: 'fa-file',
       name: 'Resume',
       url: 'MariaBecklesWebDevelopmentResume',
     },
+    */}
+
   ],
   phone: '(786)366-9257',
   address: 'Fort Lauderdale, FL',
