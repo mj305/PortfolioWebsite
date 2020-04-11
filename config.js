@@ -8,31 +8,32 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  heading: 'Maria Beckles',
+  subHeading: '< Certified Scrum Master and Product Owner / > ',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/mj305',
     },
     {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      icon: 'fa-linkedin',
+      name: 'Linkedin',
+      url: 'https://www.linkedin.com/in/mariabeckles/',
     },
-    {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
-    },
+
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      url: 'maria@mariabeckles.com',
+    },
+    {
+      icon: 'fa-file',
+      name: 'Resume',
+      url: 'CAN I DOWNLOAD RESUME?????',
     },
   ],
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  phone: '(786)366-9257',
+  address: 'Fort Lauderdale, FL',
 };

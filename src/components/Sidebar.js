@@ -7,7 +7,7 @@ export default function SideBar({ fullMenu }) {
     <>
       <header id="header" className={`${fullMenu ? '' : 'alt'}`}>
         <h1>
-          <Link to="/">Solid State</Link>
+          <Link to="/">MB</Link>
         </h1>
 
         <nav>
@@ -19,7 +19,7 @@ export default function SideBar({ fullMenu }) {
             }}
             className="menuToggle"
           >
-            <span>Menu</span>
+            <span></span>
           </a>
         </nav>
       </header>

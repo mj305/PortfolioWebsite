@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
+import MariaBecklesWebDevelopmentResume from '../assets/images/MariaBecklesWebDevelopmentResume.pdf'
+
 export default function Nav({ onMenuToggle = () => {} }) {
   return (
     <nav id="menu">
@@ -24,18 +26,14 @@ export default function Nav({ onMenuToggle = () => {} }) {
               }}
               to="/Generic"
             >
-              Generic Page
+              About Me
             </Link>
           </li>
+
           <li>
-            <Link
-              onClick={e => {
-                onMenuToggle();
-              }}
-              to="/Elements"
-            >
-              Elements
-            </Link>
+            <a href={MariaBecklesWebDevelopmentResume} target="blank">
+              Resume
+            </a>
           </li>
         </ul>
         <a

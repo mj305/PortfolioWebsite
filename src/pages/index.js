@@ -9,6 +9,9 @@ import pic4 from '../assets/images/pic04.jpg';
 import pic5 from '../assets/images/pic05.jpg';
 import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
+import softsearchlogo from '../assets/images/softsearchlogo.png';
+import eltacologo from '../assets/images/eltacologo.png';
+
 
 import config from '../../config';
 const IndexPage = () => (
@@ -16,7 +19,7 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <div className="logo">
-          <span className="icon fa-diamond"></span>
+          <span className="icon fa-code"></span>
         </div>
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
@@ -26,67 +29,43 @@ const IndexPage = () => (
     <section id="wrapper">
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
-          <a href="/#" className="image">
-            <img src={pic1} alt="" />
+
+          <a href="https://s0ft-search.herokuapp.com/" target="blank" className="image">
+            <img src={softsearchlogo} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Magna arcu feugiat</h2>
-            <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
-            </p>
-            <a href="/#" className="special">
-              Learn more
+            <h2 className="major">Soft Search</h2>
+            <p>Job Search Web Application for Developers by Developers.</p>
+
+            {/*
+            <a href="/softsearch" className="special">
+              View Project
             </a>
+            */}
+
           </div>
         </div>
       </section>
 
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
-          <a href="/#" className="image">
-            <img src={pic2} alt="" />
+
+          <a href="https://eltaco.herokuapp.com/" target="blank" className="image">
+            <img src={eltacologo} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Tempus adipiscing</h2>
-            <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
-            </p>
-            <a href="/#" className="special">
-              Learn more
+            <h2 className="major">El Taco</h2>
+            <p>Taco Resipe Search Web Application.</p>
+            <a href="/eltaco" className="special">
+              View Project
             </a>
           </div>
         </div>
       </section>
 
-      <section id="three" className="wrapper spotlight style3">
-        <div className="inner">
-          <a href="/#" className="image">
-            <img src={pic3} alt="" />
-          </a>
-          <div className="content">
-            <h2 className="major">Nullam dignissim</h2>
-            <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
-            </p>
-            <a href="/#" className="special">
-              Learn more
-            </a>
-          </div>
-        </div>
-      </section>
 
+      {/* 
+       // Cards Layout    
       <section id="four" className="wrapper alt style1">
         <div className="inner">
           <h2 className="major">Vitae phasellus</h2>
@@ -158,8 +137,11 @@ const IndexPage = () => (
             </li>
           </ul>
         </div>
-      </section>
+      </section>*/}
+
+
     </section>
+      
   </Layout>
 );
 
