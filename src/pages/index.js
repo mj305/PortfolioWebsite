@@ -11,6 +11,7 @@ import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
 import softsearchlogo from '../assets/images/softsearchlogo.png';
 import eltacologo from '../assets/images/eltacologo.png';
+import mbbluelogo from '../assets/images/mbbluelogo.png';
 
 
 import config from '../../config';
@@ -19,7 +20,9 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <div className="logo">
+          
           <span className="icon fa-code"></span>
+          
         </div>
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
@@ -35,7 +38,14 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <h2 className="major">Soft Search</h2>
-            <p>&lt; Job Search Web Application for Developers by Developers. / &gt;</p>
+            <h5>&lt; Job Search Web Application for Developers by Developers. / &gt;</h5>
+
+            <p>
+              The application is a personalized job platform that provides the user a career 
+              opportunity feed that most approaches the user’s skill set. Users can find career 
+              opportunities based on location by displaying the job postings on a map.
+            </p>
+
             <a href="https://github.com/mj305/Soft_Search" target="blank" className="special">
               GitHub Repo
             </a>
@@ -62,7 +72,12 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <h2 className="major">El Taco</h2>
-            <p>&lt; Taco Recipe Search Web Application. / &gt;</p>
+            <h5>&lt; Taco Recipe Search Web Application. / &gt;</h5>
+
+            <p>
+                Simple Search of Taco recipes displayed on homepage.
+                Recipe page displays image, description, ingredient list, and cooking instructions.
+            </p>
 
             <a href="https://github.com/mj305/El_Taco" target="blank" className="special">
               GitHub Repo

@@ -16,7 +16,7 @@ const IndexPage = () => (
           <h2>About Me</h2>
           <h3>&lt; Maria Beckles/ &gt;</h3>
           <p>&lt; Certified Scrum Master and Product Owner / &gt;</p>
-          <p>&lt; Aspiring Web Developer / &gt;</p>
+          <p>&lt; Aspiring Softwarembbluelogo Developer / &gt;</p>
         </div>
       </header>
 
@@ -37,7 +37,7 @@ const IndexPage = () => (
 
             <p>
                 Fueled by high energy levels and boundless enthusiasm, 
-                I’m easily inspired and more then willing to follow my 
+                I’m easily inspired and willing to follow my 
                 fascinations wherever they take me. I’m passionate, 
                 expressive, multi-talented spirit with a natural ability 
                 to entertain and inspire. I’m never satisfied to just come 
@@ -55,10 +55,9 @@ const IndexPage = () => (
             </p>
 
             <p>
-                I'm also a multi-cultural leader and process improvement with 
-                over 16 years of experiences management, operations, recruiter, 
-                project manager, aspiring developer, music enthusiast, 
-                traveler, and more I’m a people-person with 
+                I'm also a multi-cultural leader and process improvement profesional with 
+                over 16 years of experience in management, operations, recruitment, 
+                project management, and more. I’m a people-person with 
                 deep emotions and empathy; I’m able to inspire and be at 
                 my best when I’m colaborating  with others. 
             </p>
