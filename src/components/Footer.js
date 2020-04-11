@@ -41,11 +41,15 @@ export default function Footer() {
             );
           })}
         </ul>
+        
         <ul className="copyright">
           <li>&copy; Maria Beckles, 2020.</li>
-
         </ul>
+        
       </div>
     </section>
   );
 }
+
+
+
