@@ -58,9 +58,11 @@ const IndexPage = () => (
 
             <ul className="actions">
 							<li><a href={MariaBecklesWebDevelopmentResume} target="blank" className="button primary icon fa-download">Resume</a></li>
+              <li><a href="https://github.com/mj305" target="blank" className="button icon fa-download">GitHub</a></li>
+
 						</ul>
 					
-           
+            
 
 
          

@@ -62,7 +62,7 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <h2 className="major">El Taco</h2>
-            <p>Taco Resipe Search Web Application.</p>
+            <p>Taco Recipe Search Web Application.</p>
 
             <a href="https://github.com/mj305/El_Taco" target="blank" className="special">
               GitHub Repo
