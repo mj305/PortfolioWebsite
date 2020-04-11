@@ -12,15 +12,18 @@ const IndexPage = () => (
           <h2>El Taco</h2>
           <p>&lt; Taco Recipe Finder Web Application / &gt;</p>
         </div>
-        
       </header>
+
+
+						
+					</section>
 
       <div className="wrapper">
         <div className="inner">
-          <h3 className="major">EL TACO</h3>
-          <p>PROBLEM</p>
-
-          <p>THIS IS THE SOLUTION</p>
+          <h3 className="major">The Problem</h3>
+          <p>TALK ABOUT THE PROBLEM</p>
+          <h3 className="major">The Solution</h3>
+          <p>Talk About The Solution</p>
 
 
          
@@ -66,7 +69,6 @@ const IndexPage = () => (
 
         </div>
       </div>
-    </section>
   </Layout>
 );
 
