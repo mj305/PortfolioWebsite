@@ -36,6 +36,13 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Soft Search</h2>
             <p>Job Search Web Application for Developers by Developers.</p>
+            <a href="https://github.com/mj305/Soft_Search" target="blank" className="special">
+              GitHub Repo
+            </a>
+
+            <a href="https://s0ft-search.herokuapp.com/" target="blank" className="special">
+              Go To App
+            </a>
 
             {/*
             <a href="/softsearch" className="special">
@@ -56,9 +63,21 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">El Taco</h2>
             <p>Taco Resipe Search Web Application.</p>
+
+            <a href="https://github.com/mj305/El_Taco" target="blank" className="special">
+              GitHub Repo
+            </a>
+
+            <a href="https://eltaco.herokuapp.com/" target="blank" className="special">
+              Go To App
+            </a>
+
+            {/*
             <a href="/eltaco" className="special">
               View Project
             </a>
+            */}
+
           </div>
         </div>
       </section>
