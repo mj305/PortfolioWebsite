@@ -35,7 +35,7 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <h2 className="major">Soft Search</h2>
-            <p>Job Search Web Application for Developers by Developers.</p>
+            <p>&lt; Job Search Web Application for Developers by Developers. / &gt;</p>
             <a href="https://github.com/mj305/Soft_Search" target="blank" className="special">
               GitHub Repo
             </a>
@@ -62,7 +62,7 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <h2 className="major">El Taco</h2>
-            <p>Taco Recipe Search Web Application.</p>
+            <p>&lt; Taco Recipe Search Web Application. / &gt;</p>
 
             <a href="https://github.com/mj305/El_Taco" target="blank" className="special">
               GitHub Repo
