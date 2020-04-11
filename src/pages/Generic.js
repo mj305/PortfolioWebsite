@@ -5,6 +5,8 @@ import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import aboutpic from '../assets/images/aboutpic.jpg';
 import profilepic from '../assets/images/profilepic.jpg';
+import MariaBecklesWebDevelopmentResume from '../assets/images/MariaBecklesWebDevelopmentResume.pdf'
+
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -55,9 +57,10 @@ const IndexPage = () => (
             </p>
 
             <ul className="actions">
-							<li><a href="/#" target="blank" className="button primary icon fa-download">Resume</a></li>
+							<li><a href={MariaBecklesWebDevelopmentResume} target="blank" className="button primary icon fa-download">Resume</a></li>
 						</ul>
 					
+           
 
 
          
