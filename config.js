@@ -10,6 +10,8 @@ module.exports = {
   pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Maria Beckles',
   subHeading: '< Certified Scrum Master and Product Owner / > ',
+  secondHeading: '< Aspiring Software Developer />',
+
   // social
   socialLinks: [
     {

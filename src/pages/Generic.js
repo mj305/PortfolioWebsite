@@ -1,10 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
 import aboutpic from '../assets/images/aboutpic.jpg';
-import profilepic from '../assets/images/profilepic.jpg';
 import MariaBecklesWebDevelopmentResume from '../assets/images/MariaBecklesWebDevelopmentResume.pdf'
 
 
