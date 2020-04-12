@@ -1,7 +1,11 @@
 {
-  "name": "gatsby-starter-solidstate",
+  "name": "mariabeckles",
+  "description": "Maria Beckles Portfolio Website",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Solid State by HTML5 UP",
+  "engines": {
+    "node": "10.19.0",
+    "npm":"6.x"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-solidstate.git"
