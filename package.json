@@ -10,6 +10,16 @@
     "name": "Anubhav Srivastava",
     "email": "anubhav.srivastava00@gmail.com"
   },
+
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-static"
+    }
+  ],  
+
   "dependencies": {
     "gatsby": "^2.20.2",
     "gatsby-cli": "^2.11.7",
@@ -25,9 +35,6 @@
     "react-scrollspy": "^3.4.2",
     "smoothscroll-polyfill": "^0.4.4"
   },
-
-
-
   "scripts": {
     "develop": "gatsby develop",
     "build": "npm run clean && gatsby build",
