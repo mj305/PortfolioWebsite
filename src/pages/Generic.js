@@ -13,7 +13,7 @@ const IndexPage = () => (
           <h2>About Me</h2>
           <h3>&lt; Maria Beckles/ &gt;</h3>
           <p>&lt; Certified Scrum Master and Product Owner / &gt;</p>
-          <p>&lt; Aspiring Softwarembbluelogo Developer / &gt;</p>
+          <p>&lt; Aspiring Software Developer / &gt;</p>
         </div>
       </header>
 
