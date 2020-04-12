@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import aboutpic from '../assets/images/aboutpic.jpg';
-import MariaBecklesWebDevelopmentResume from '../assets/images/MariaBecklesWebDevelopmentResume.pdf'
+import MariaBecklesResume from '../assets/images/MariaBecklesResume.pdf'
 
 
 const IndexPage = () => (
@@ -63,7 +63,7 @@ const IndexPage = () => (
 
             <ul className="actions">
 							<li>
-                <a href={MariaBecklesWebDevelopmentResume} target="blank" className="button primary icon fa-download">
+                <a href={MariaBecklesResume} target="blank" className="button primary icon fa-download">
                   Resume
                   </a>
               </li>

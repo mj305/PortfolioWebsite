@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import MariaBecklesWebDevelopmentResume from '../assets/images/MariaBecklesWebDevelopmentResume.pdf'
+import MariaBecklesResume from '../assets/images/MariaBecklesResume.pdf'
 
 export default function Nav({ onMenuToggle = () => {} }) {
   return (
@@ -31,7 +31,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
           </li>
 
           <li>
-            <a href={MariaBecklesWebDevelopmentResume} target="blank">
+            <a href={MariaBecklesResume} target="blank">
               Resume
             </a>
           </li>
