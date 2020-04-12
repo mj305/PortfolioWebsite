@@ -10,7 +10,9 @@ export default function Footer() {
       <div className="inner">
         <h2 className="major">Get in touch</h2>
 
-        <form method="post" action="/#">
+        
+
+        <form action="https://getform.io/f/8abb7a3a-0396-408a-8f02-0ca038f245f1" method="POST">
 
           <div className="fields">
 
@@ -31,14 +33,21 @@ export default function Footer() {
 
           </div>
 
-          {/*Submitt Button*/}
+          <div className="actions">
+              <button type="submit">Send Message</button>
+          </div>
+
+          {/*Submitt Button
           <ul className="actions">
             <li>
               <input type="submit" value="Send Message" />
             </li>
           </ul>
+          */}
 
         </form>
+
+        
 
 
         <ul className="contact">
