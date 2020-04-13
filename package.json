@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "engines": {
     "node": "10.19.0",
-    "npm":"6.x"
+    "npm": "6.x"
   },
   "repository": {
     "type": "git",
@@ -13,8 +13,7 @@
   "author": {
     "name": "Anubhav Srivastava",
     "email": "anubhav.srivastava00@gmail.com"
-  }, 
-
+  },
   "dependencies": {
     "gatsby": "^2.20.2",
     "gatsby-cli": "^2.11.7",
