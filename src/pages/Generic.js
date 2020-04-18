@@ -24,13 +24,22 @@ const IndexPage = () => (
               <span className="image left">
                 <img src={aboutpic} alt="Maria Beckles"/>
                 </span>
+
                 
+                I'm a multi-cultural leader and process improvement profesional with 
+                over 16 years of experience in management, operations, recruitment, 
+                project management, and more. I’m a people-person with 
+                deep emotions and empathy; I’m able to inspire and be at 
+                my best when I’m colaborating  with others. 
+            </p>
+
+            <p>
                 I don’t like to define myself by the work I’ve done. 
                 I define myself by the work I want to do. Skills can 
                 be taught, personality is inherent. I prefer to keep 
                 learning, continue challenging myself, and do 
                 interesting things that matter.
-                </p>
+            </p>
 
             <p>
                 Fueled by high energy levels and boundless enthusiasm, 
@@ -51,13 +60,6 @@ const IndexPage = () => (
                 and career.
             </p>
 
-            <p>
-                I'm also a multi-cultural leader and process improvement profesional with 
-                over 16 years of experience in management, operations, recruitment, 
-                project management, and more. I’m a people-person with 
-                deep emotions and empathy; I’m able to inspire and be at 
-                my best when I’m colaborating  with others. 
-            </p>
 
 
 
