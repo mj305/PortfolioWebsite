@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 
 import softsearchlogo from '../assets/images/softsearchlogo.png';
 import eltacologo from '../assets/images/eltacologo.png';
-import MariaBecklesResume from '../assets/images/MariaBecklesResume.pdf'
+import Resume from '../assets/images/Resume.pdf'
 
 
 import config from '../../config';
@@ -24,7 +24,7 @@ const IndexPage = () => (
 
           <ul className="actions">
 							<li>
-                <a href={MariaBecklesResume} target="blank" className="button primary icon fa-download">
+                <a href={Resume} target="blank" className="button primary icon fa-download">
                   Resume
                   </a>
               </li>

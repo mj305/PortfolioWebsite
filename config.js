@@ -35,7 +35,7 @@ module.exports = {
     {
       icon: 'fa-file',
       name: 'Resume',
-      url: 'MariaBecklesResume',
+      url: 'MariaBeckles',
     },
     */}
 
