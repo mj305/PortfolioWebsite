@@ -65,12 +65,6 @@ const IndexPage = () => (
               Go To App
             </a>
 
-            {/*
-            <a href="/softsearch" className="special">
-              View Project
-            </a>
-            */}
-
           </div>
         </div>
       </section>
@@ -106,9 +100,7 @@ const IndexPage = () => (
       <header>
         <div className="inner">
           <h2>About Me</h2>
-          <h3>&lt; Maria Beckles/ &gt;</h3>
-          <p>&lt; Certified PSM I - Professional Scrum Master / &gt;</p>
-          <p>&lt; Aspiring Software Developer / &gt;</p>
+
         </div>
       </header>
 
