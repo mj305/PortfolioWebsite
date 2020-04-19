@@ -6,6 +6,7 @@ import Layout from '../components/Layout';
 import softsearchlogo from '../assets/images/softsearchlogo.png';
 import eltacologo from '../assets/images/eltacologo.png';
 import Resume from '../assets/images/Resume.pdf'
+import aboutpic from '../assets/images/aboutpic.jpg';
 
 
 import config from '../../config';
@@ -96,95 +97,84 @@ const IndexPage = () => (
             <a href="https://eltaco.herokuapp.com/" target="blank" className="special">
               Go To App
             </a>
-
-            {/*
-            <a href="/eltaco" className="special">
-              View Project
-            </a>
-            */}
-
           </div>
         </div>
       </section>
-
-
-      {/* 
-       // Cards Layout    
-      <section id="four" className="wrapper alt style1">
-        <div className="inner">
-          <h2 className="major">Vitae phasellus</h2>
-          <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
-          </p>
-          <section className="features">
-            <article>
-              <a href="/#" className="image">
-                <img src={pic4} alt="" />
-              </a>
-              <h3 className="major">Sed feugiat lorem</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic5} alt="" />
-              </a>
-              <h3 className="major">Nisl placerat</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic6} alt="" />
-              </a>
-              <h3 className="major">Ante fermentum</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic7} alt="" />
-              </a>
-              <h3 className="major">Fusce consequat</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-          </section>
-          <ul className="actions">
-            <li>
-              <a href="/#" className="button">
-                Browse All
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>*/}
-
-
     </section>
+
+    <section id="wrapper">
+      <header>
+        <div className="inner">
+          <h2>About Me</h2>
+          <h3>&lt; Maria Beckles/ &gt;</h3>
+          <p>&lt; Certified PSM I - Professional Scrum Master / &gt;</p>
+          <p>&lt; Aspiring Software Developer / &gt;</p>
+        </div>
+      </header>
+
+      <div className="wrapper">
+        <div className="inner">
+
+						<p>
+              <span className="image left">
+                <img src={aboutpic} alt="Maria Beckles"/>
+                </span>
+
+                
+                I'm a multi-cultural leader and process improvement profesional with 
+                over 16 years of experience in management, operations, recruitment, 
+                project management, and more. I’m a people-person with 
+                deep emotions and empathy; I’m able to inspire and be at 
+                my best when I’m colaborating  with others. 
+            </p>
+
+            <p>
+                I don’t like to define myself by the work I’ve done. 
+                I define myself by the work I want to do. Skills can 
+                be taught, personality is inherent. I prefer to keep 
+                learning, continue challenging myself, and do 
+                interesting things that matter.
+            </p>
+
+            <p>
+                Fueled by high energy levels and boundless enthusiasm, 
+                I’m easily inspired and willing to follow my 
+                fascinations wherever they take me. I’m passionate, 
+                expressive, multi-talented spirit with a natural ability 
+                to entertain and inspire. I’m never satisfied to just come 
+                up with ideas. Instead I have an almost impulsive need 
+                to act on them.
+            </p>
+            
+            <p>
+                My abundant energy fuels me in the pursuit of many interests, 
+                hobbies, areas of study and artistic endeavors. I’m a fast 
+                learner, able to pick up new skills and juggle different 
+                projects and roles with relative ease. I like to develop 
+                expertise in a number of areas over the course of my life 
+                and career.
+            </p>
+
+
+
+
+            <ul className="actions">
+							<li>
+                <a href={Resume} target="blank" className="button primary icon fa-download">
+                  Resume
+                  </a>
+              </li>
+
+              <li>
+                <a href="https://github.com/mj305" target="blank" className="button icon fa-download">
+                  GitHub
+                </a>
+              </li>
+						</ul>
+        </div>
+      </div>
+    </section>          
+
       
   </Layout>
 );
