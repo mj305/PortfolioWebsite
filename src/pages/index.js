@@ -5,8 +5,8 @@ import Layout from '../components/Layout';
 
 import softsearchlogo from '../assets/images/softsearchlogo.png';
 import eltacologo from '../assets/images/eltacologo.png';
-import Resume from '../assets/images/Resume.pdf'
 import aboutpic from '../assets/images/aboutpic.jpg';
+import MBResume from '../assets/images/MBResume.pdf'
 
 
 import config from '../../config';
@@ -25,7 +25,7 @@ const IndexPage = () => (
 
           <ul className="actions">
 							<li>
-                <a href={Resume} target="blank" className="button primary icon fa-download">
+                <a href={MBResume} target="blank" className="button primary icon fa-download">
                   Resume
                   </a>
               </li>
@@ -152,7 +152,7 @@ const IndexPage = () => (
 
             <ul className="actions">
 							<li>
-                <a href={Resume} target="blank" className="button primary icon fa-download">
+                <a href={MBResume} target="blank" className="button primary icon fa-download">
                   Resume
                   </a>
               </li>

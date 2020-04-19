@@ -36,15 +36,6 @@ export default function Footer() {
           <div className="actions">
               <button type="submit">Send Message</button>
           </div>
-
-          {/*Submitt Button
-          <ul className="actions">
-            <li>
-              <input type="submit" value="Send Message" />
-            </li>
-          </ul>
-          */}
-
         </form>
 
         
