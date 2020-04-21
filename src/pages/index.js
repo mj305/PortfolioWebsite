@@ -6,7 +6,8 @@ import Layout from '../components/Layout';
 import softsearchlogo from '../assets/images/softsearchlogo.png';
 import eltacologo from '../assets/images/eltacologo.png';
 import aboutpic from '../assets/images/aboutpic.jpg';
-import MBResume from '../assets/images/MBResume.pdf'
+import MBResume from '../assets/images/MBResume.pdf';
+import MBPSM  from '../assets/images/MBPSM.pdf';
 
 
 import config from '../../config';
@@ -31,10 +32,17 @@ const IndexPage = () => (
               </li>
 
               <li>
-                <a href="https://github.com/mj305" target="blank" className="button icon fa-download">
+                <a href={MBPSM} target="blank" className="button icon fa-download">
+                  PSM I Certificate
+                </a>
+              </li>
+
+              <li>
+                <a href="https://github.com/mj305" target="blank" className="button primary icon fa-download">
                   GitHub
                 </a>
               </li>
+              
 						</ul>
 
       </div>
