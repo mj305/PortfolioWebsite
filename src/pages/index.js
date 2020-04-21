@@ -23,8 +23,65 @@ const IndexPage = () => (
           <h2>{config.heading}</h2>
           <p>{config.subHeading}</p>
           <p>{config.secondHeading}</p>
+        </div>
+    </section>
 
-          <ul className="actions">
+    <section id="two" className="wrapper alt spotlight style2">
+        <div className="inner">
+          
+
+          <div className="content">
+            <h2 className="major">About Me</h2>
+          
+            <p>
+            <span className="image left"><img src={aboutpic} alt="" /></span>
+                I'm a multi-cultural leader and process improvement profesional with 
+                over 16 years of experience in management, operations, recruitment, 
+                project management, and more. I’m a people-person with 
+                deep emotions and empathy; I’m able to inspire and be at 
+                my best when I’m colaborating  with others. 
+            </p>
+
+            <p>
+                I don’t like to define myself by the work I’ve done. 
+                I define myself by the work I want to do. Skills can 
+                be taught, personality is inherent. I prefer to keep 
+                learning, continue challenging myself, and do 
+                interesting things that matter.
+            </p>
+
+            <p>
+                Fueled by high energy levels and boundless enthusiasm, 
+                I’m easily inspired and willing to follow my 
+                fascinations wherever they take me. I’m passionate, 
+                expressive, multi-talented spirit with a natural ability 
+                to entertain and inspire. I’m never satisfied to just come 
+                up with ideas. Instead I have an almost impulsive need 
+                to act on them.
+            </p>
+            
+            <p>
+                My abundant energy fuels me in the pursuit of many interests, 
+                hobbies, areas of study and artistic endeavors. I’m a fast 
+                learner, able to pick up new skills and juggle different 
+                projects and roles with relative ease. I like to develop 
+                expertise in a number of areas over the course of my life 
+                and career.
+            </p>
+
+          </div>
+        </div>
+      </section>
+
+
+
+
+    <section id="wrapper">
+
+      <div className="wrapper">
+        <div className="inner">
+
+        <ul className="actions">
 							<li>
                 <a href={MBResume} target="blank" className="button primary icon fa-download">
                   Resume
@@ -33,7 +90,7 @@ const IndexPage = () => (
 
               <li>
                 <a href={MBPSM} target="blank" className="button icon fa-download">
-                  PSM I Certificate
+                  PSM Certificate
                 </a>
               </li>
 
@@ -43,10 +100,13 @@ const IndexPage = () => (
                 </a>
               </li>
               
-						</ul>
+			</ul>
 
+        </div>
       </div>
-    </section>
+    </section>            
+
+
 
     <section id="wrapper">
       <section id="one" className="wrapper spotlight style1">
@@ -102,78 +162,8 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
+
     </section>
-
-    <section id="wrapper">
-      <header>
-        <div className="inner">
-          <h2>About Me</h2>
-
-        </div>
-      </header>
-
-      <div className="wrapper">
-        <div className="inner">
-
-						<p>
-              <span className="image left">
-                <img src={aboutpic} alt="Maria Beckles"/>
-                </span>
-
-                
-                I'm a multi-cultural leader and process improvement profesional with 
-                over 16 years of experience in management, operations, recruitment, 
-                project management, and more. I’m a people-person with 
-                deep emotions and empathy; I’m able to inspire and be at 
-                my best when I’m colaborating  with others. 
-            </p>
-
-            <p>
-                I don’t like to define myself by the work I’ve done. 
-                I define myself by the work I want to do. Skills can 
-                be taught, personality is inherent. I prefer to keep 
-                learning, continue challenging myself, and do 
-                interesting things that matter.
-            </p>
-
-            <p>
-                Fueled by high energy levels and boundless enthusiasm, 
-                I’m easily inspired and willing to follow my 
-                fascinations wherever they take me. I’m passionate, 
-                expressive, multi-talented spirit with a natural ability 
-                to entertain and inspire. I’m never satisfied to just come 
-                up with ideas. Instead I have an almost impulsive need 
-                to act on them.
-            </p>
-            
-            <p>
-                My abundant energy fuels me in the pursuit of many interests, 
-                hobbies, areas of study and artistic endeavors. I’m a fast 
-                learner, able to pick up new skills and juggle different 
-                projects and roles with relative ease. I like to develop 
-                expertise in a number of areas over the course of my life 
-                and career.
-            </p>
-
-
-
-
-            <ul className="actions">
-							<li>
-                <a href={MBResume} target="blank" className="button primary icon fa-download">
-                  Resume
-                  </a>
-              </li>
-
-              <li>
-                <a href="https://github.com/mj305" target="blank" className="button icon fa-download">
-                  GitHub
-                </a>
-              </li>
-						</ul>
-        </div>
-      </div>
-    </section>            
   </Layout>
 );
 
