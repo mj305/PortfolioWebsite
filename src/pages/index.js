@@ -116,7 +116,7 @@ const IndexPage = () => (
               opportunities based on location by displaying the job postings on a map.
             </p>
 
-            <a href="https://github.com/mj305/Soft_Search" target="blank" className="special">
+            <a href="https://github.com/mj305/SoftSearchCopy" target="blank" className="special">
               GitHub Repo
             </a>
 
@@ -143,7 +143,7 @@ const IndexPage = () => (
                 Recipe page displays image, description, ingredient list, and cooking instructions.
             </p>
 
-            <a href="https://github.com/mj305/El_Taco" target="blank" className="special">
+            <a href="https://github.com/mj305/ElTacoCopy" target="blank" className="special">
               GitHub Repo
             </a>
 
