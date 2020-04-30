@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 
 import softsearchlogo from '../assets/images/softsearchlogo.png';
 import eltacologo from '../assets/images/eltacologo.png';
+import crown from '../assets/images/crown.png';
 import aboutpic from '../assets/images/aboutpic.jpg';
 import MBResume from '../assets/images/MBResume.pdf';
 import MBPSM  from '../assets/images/MBPSM.pdf';
@@ -123,10 +124,10 @@ const IndexPage = () => (
             <a href="https://s0ft-search.herokuapp.com/" target="blank" className="special">
               Go To App
             </a>
-
           </div>
         </div>
       </section>
+
 
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
@@ -153,6 +154,32 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
+
+      <section id="one" className="wrapper spotlight style1">
+        <div className="inner">
+
+          <a href="https://github.com/mj305/Hotel" target="blank" className="image">
+            <img src={crown} alt="Grand Hotel Logo" />
+          </a>
+          <div className="content">
+            <h2 className="major">Grand Hotel</h2>
+            <h5>&lt; Hotel Website / &gt;</h5>
+
+            <p>
+              Static website created with HTML and CSS3 animations.
+            </p>
+
+            <a href="https://github.com/mj305/Hotel" target="blank" className="special">
+              GitHub Repo
+            </a>
+
+            <a href="https://grand-hotel.herokuapp.com/" target="blank" className="special">
+              Go To Website
+            </a>
+          </div>
+        </div>
+      </section>
+
 
     </section>
   </Layout>
