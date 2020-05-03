@@ -129,7 +129,6 @@ const IndexPage = () => (
         </div>
       </section>
 
-
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
 
@@ -164,10 +163,10 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <h2 className="major">Grand Hotel</h2>
-            <h5>&lt; Hotel Website / &gt;</h5>
+            <h5>&lt; Hotel Static Website / &gt;</h5>
 
             <p>
-              Static website created with HTML/CSS3, Flexbox, Animations and Mobile Responsive.
+              Static website created with CSS3, Flexbox, Animations and Mobile Responsive.
             </p>
 
             <a href="https://github.com/mj305/Hotel" target="blank" className="special">
@@ -181,18 +180,18 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section id="two" className="wrapper spotlight style2">
+      <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
 
           <a href="https://furniture-store-site.herokuapp.com/" target="blank" className="image">
-            <img src={logo} alt="Grand Hotel Logo" />
+            <img src={logo} alt="El Taco Logo " />
           </a>
           <div className="content">
             <h2 className="major">Furniture Store</h2>
-            <h5>&lt; Furniture Store Website / &gt;</h5>
+            <h5>&lt; Furniture Store Static Website. / &gt;</h5>
 
             <p>
-              Static website created with HTML/CSS3, Grid, Flexbox, Animations and Mobile Responsive.
+              Static website created with CSS3 Grid, Flexbox, Animations and Mobile Responsive.
             </p>
 
             <a href="https://github.com/mj305/FurnitureStore" target="blank" className="special">
@@ -200,11 +199,13 @@ const IndexPage = () => (
             </a>
 
             <a href="https://furniture-store-site.herokuapp.com/" target="blank" className="special">
-              Go To Website
+              Go To App
             </a>
           </div>
         </div>
       </section>
+      
+       
     </section>
   </Layout>
 );
