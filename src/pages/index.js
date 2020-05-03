@@ -23,8 +23,8 @@ const IndexPage = () => (
           
         </div>
           <h2>{config.heading}</h2>
-          <p>{config.subHeading}</p>
           <p>{config.secondHeading}</p>
+          <p>{config.subHeading}</p>
         </div>
     </section>
 
