@@ -6,6 +6,7 @@ import Layout from '../components/Layout';
 import softsearchlogo from '../assets/images/softsearchlogo.png';
 import eltacologo from '../assets/images/eltacologo.png';
 import crown from '../assets/images/crown.png';
+import logo from '../assets/images/logo.png';
 import aboutpic from '../assets/images/aboutpic.jpg';
 import MBResume from '../assets/images/MBResume.pdf';
 import MBPSM  from '../assets/images/MBPSM.pdf';
@@ -174,6 +175,31 @@ const IndexPage = () => (
             </a>
 
             <a href="https://grand-hotel.herokuapp.com/" target="blank" className="special">
+              Go To Website
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="one" className="wrapper spotlight style2">
+        <div className="inner">
+
+          <a href="https://furniture-store-site.herokuapp.com/" target="blank" className="image">
+            <img src={logo} alt="Grand Hotel Logo" />
+          </a>
+          <div className="content">
+            <h2 className="major">Furniture Store</h2>
+            <h5>&lt; Furniture Store Website / &gt;</h5>
+
+            <p>
+              Static website created with HTML/CSS3, Grid, Flexbox, Animations and Mobile Responsive.
+            </p>
+
+            <a href="https://github.com/mj305/FurnitureStore" target="blank" className="special">
+              GitHub Repo
+            </a>
+
+            <a href="https://furniture-store-site.herokuapp.com/" target="blank" className="special">
               Go To Website
             </a>
           </div>
