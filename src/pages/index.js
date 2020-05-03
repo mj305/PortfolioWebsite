@@ -181,7 +181,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section id="one" className="wrapper spotlight style2">
+      <section id="two" className="wrapper spotlight style2">
         <div className="inner">
 
           <a href="https://furniture-store-site.herokuapp.com/" target="blank" className="image">
