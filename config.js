@@ -9,8 +9,8 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Maria Beckles',
+  secondHeading: '< Web Developer />',
   subHeading: '< Certified Professional Scrum Master / > ',
-  secondHeading: '< Software Developer />',
 
   // social
   socialLinks: [
