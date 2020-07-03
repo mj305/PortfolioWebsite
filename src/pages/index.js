@@ -48,6 +48,12 @@ const IndexPage = () => (
                           </a>
                         </li>
                     </ul>
+                    
+                    <div> 
+                      <h3>Code Wars Badge</h3>
+                      <img src="https://www.codewars.com/users/mj305/badges/large"></img>
+                    </div>
+
                 </div>
         </section>     
 
