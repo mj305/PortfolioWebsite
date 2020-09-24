@@ -27,7 +27,7 @@ class Layout extends Component {
   }
 
   render() {
-    const { children, fullMenu } = this.props;
+    const { children } = this.props;
     const { isPreloaded } = this.state;
     return (
       <StaticQuery
@@ -55,7 +55,6 @@ class Layout extends Component {
               className={isPreloaded ? ' main-body  is-preload' : ' main-body'}
             >
               <div id="page-wrapper">
-                
                 {children}
                 <Footer />
               </div>
