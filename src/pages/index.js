@@ -76,7 +76,7 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <h2 className="major">Shortly</h2>
-            <h5> Link Shortener Application </h5>
+            <h5>&lt; Link Shortener Application &gt;</h5>
 
             <p>
               The application provides the user with a free platform to shorten
