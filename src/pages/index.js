@@ -36,7 +36,7 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <h2 className="major">Shortly</h2>
-            <h5>&lt; Link Shortener Application &gt;</h5>
+            <h5>&lt; Link Shortener Application /&gt;</h5>
 
             <p>
               The application provides the user with a free platform to shorten
@@ -75,8 +75,7 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Soft Search</h2>
             <h5>
-              &lt; Job Search Web Application for Developers by Developers. /
-              &gt;
+              &lt; Job Search Web Application for Developers by Developers /&gt;
             </h5>
 
             <p>
@@ -116,7 +115,7 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <h2 className="major">El Taco</h2>
-            <h5>&lt; Taco Recipe Search Web Application. / &gt;</h5>
+            <h5>&lt; Taco Recipe Search Web Application /&gt;</h5>
 
             <p>
               Simple Search of Taco recipes displayed on homepage. Recipe page
