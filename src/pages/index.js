@@ -24,46 +24,6 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section className="wrapper">
-      <div className="inner">
-        <ul className="actions">
-          <li>
-            <a
-              href={MBResume}
-              target="blank"
-              className="button primary icon fa-download"
-            >
-              Resume
-            </a>
-          </li>
-
-          <li>
-            <a href={MBPSM} target="blank" className="button icon fa-download">
-              PSM Certificate
-            </a>
-          </li>
-
-          <li>
-            <a
-              href="https://github.com/mj305"
-              target="blank"
-              className="button primary icon fa-download"
-            >
-              GitHub
-            </a>
-          </li>
-        </ul>
-
-        <div>
-          <h3>Code Wars Badge</h3>
-          <img
-            src="https://www.codewars.com/users/mj305/badges/large"
-            alt="achievement badge"
-          ></img>
-        </div>
-      </div>
-    </section>
-
     <section id="wrapper">
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
@@ -222,7 +182,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section id="one" className="wrapper spotlight style1">
+      <section className="wrapper">
         <div className="inner">
           <ul className="actions">
             <li>
@@ -255,58 +215,20 @@ const IndexPage = () => (
               </a>
             </li>
           </ul>
+
+          <a
+            href="https://www.codewars.com/users/mj305"
+            target="blank"
+            style={{ border: 'none' }}
+          >
+            <h3>Code Wars Badge</h3>
+            <img
+              src="https://www.codewars.com/users/mj305/badges/large"
+              alt="achievement badge"
+            ></img>
+          </a>
         </div>
       </section>
-
-      {/*       <section id="one" className="wrapper spotlight style1">
-        <div className="inner">
-
-          <a href="https://grand-hotel.herokuapp.com/" target="blank" className="image">
-            <img src={crown} alt="Grand Hotel Logo" />
-          </a>
-          <div className="content">
-            <h2 className="major">Grand Hotel</h2>
-            <h5>&lt; Hotel Static Website / &gt;</h5>
-
-            <p>
-              Static website created with CSS3, Flexbox, Animations and Mobile Responsive.
-            </p>
-
-            <a href="https://github.com/mj305/Hotel" target="blank" className="special">
-              GitHub Repo
-            </a>
-
-            <a href="https://grand-hotel.herokuapp.com/" target="blank" className="special">
-              Go To Website
-            </a>
-          </div>
-        </div>
-      </section> */}
-
-      {/*       <section id="two" className="wrapper alt spotlight style2">
-        <div className="inner">
-
-          <a href="https://furniture-store-site.herokuapp.com/" target="blank" className="image">
-            <img src={logo} alt="El Taco Logo " />
-          </a>
-          <div className="content">
-            <h2 className="major">Furniture Store</h2>
-            <h5>&lt; Furniture Store Static Website. / &gt;</h5>
-
-            <p>
-              Static website created with CSS3 Grid, Flexbox, Animations and Mobile Responsive.
-            </p>
-
-            <a href="https://github.com/mj305/FurnitureStore" target="blank" className="special">
-              GitHub Repo
-            </a>
-
-            <a href="https://furniture-store-site.herokuapp.com/" target="blank" className="special">
-              Go To App
-            </a>
-          </div>
-        </div>
-      </section> */}
     </section>
   </Layout>
 );
