@@ -28,7 +28,7 @@ module.exports = {
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:maria@mariabeckles.com',
+      url: 'mailto:maria.j.beckles@gmail.com',
     },
   ],
   phone: '(786)366-9257',
