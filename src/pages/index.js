@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 import softsearchlogo from '../assets/images/softsearchlogo.png';
 import eltacologo from '../assets/images/eltacologo.png';
 import shortlyLogo from '../assets/images/shortlyLogo.svg';
+import marvelLogo from '../assets/images/marvelLogo.png';
 /* import crown from '../assets/images/crown.png';
 import logo from '../assets/images/logo.png'; */
 import aboutpic from '../assets/images/aboutpic.jpg';
@@ -62,7 +63,6 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
           <a
@@ -107,6 +107,43 @@ const IndexPage = () => (
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
           <a
+            href="https://marvel-react-api-app.netlify.app/"
+            target="blank"
+            className="image"
+          >
+            <img src={marvelLogo} alt="Marvel Logo" />
+          </a>
+          <div className="content">
+            <h2 className="major">Marvel React App</h2>
+            <h5>&lt; Marvel Comic Character App /&gt;</h5>
+
+            <p>
+              With this simple Marvel Comic React App you can sign up and
+              checkout your favorite characters and learn more aboutpic Marve'ls
+              heroes and villans.
+            </p>
+
+            <a
+              href="https://github.com/mj305/Marvel"
+              target="blank"
+              className="special"
+            >
+              GitHub Repo
+            </a>
+
+            <a
+              href="https://marvel-react-api-app.netlify.app/"
+              target="blank"
+              className="special"
+            >
+              Go To App
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="two" className="wrapper alt spotlight style2">
+        <div className="inner">
+          <a
             href="https://eltaco.herokuapp.com/"
             target="blank"
             className="image"
@@ -141,8 +178,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-
-      <section id="two" className="wrapper alt spotlight style2">
+      <section id="one" className="wrapper spotlight style1">
         <div className="inner">
           <div className="content">
             <h2 className="major">About Me</h2>
@@ -180,7 +216,6 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-
       <section className="wrapper">
         <div className="inner">
           <ul className="actions">
