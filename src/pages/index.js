@@ -2,11 +2,9 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 import softsearchlogo from '../assets/images/softsearchlogo.png';
-import eltacologo from '../assets/images/eltacologo.png';
 import shortlyLogo from '../assets/images/shortlyLogo.svg';
 import marvelLogo from '../assets/images/marvelLogo.png';
-/* import crown from '../assets/images/crown.png';
-import logo from '../assets/images/logo.png'; */
+import nasa from '../assets/images/nasa.png';
 import aboutpic from '../assets/images/aboutpic.jpg';
 import MBResume from '../assets/images/MBResume.pdf';
 import MBPSM from '../assets/images/MBPSM.pdf';
@@ -27,6 +25,39 @@ const IndexPage = () => (
 
     <section id="wrapper">
       <section id="one" className="wrapper spotlight style1">
+        <div className="inner">
+          <a
+            href="https://coastbusters.netlify.app/"
+            target="blank"
+            className="image"
+          >
+            <img src={nasa} alt="Coast Busters Logo" />
+          </a>
+          <div className="content">
+            <h2 className="major">Coast Busters</h2>
+            <h5>&lt; Flood of Ideas /&gt;</h5>
+
+            <p>NASA International Space Apps Challenge 2020</p>
+
+            <a
+              href="https://github.com/mj305/NasaHackathon"
+              target="blank"
+              className="special"
+            >
+              GitHub Repo
+            </a>
+
+            <a
+              href="https://coastbusters.netlify.app/"
+              target="blank"
+              className="special"
+            >
+              Go To App
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
           <a
             href="https://sad-lichterman-9c45d5.netlify.app/"
@@ -63,14 +94,15 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="two" className="wrapper alt spotlight style2">
+
+      <section id="one" className="wrapper spotlight style1">
         <div className="inner">
           <a
             href="https://s0ft-search.herokuapp.com/"
             target="blank"
             className="image"
           >
-            <img src={softsearchlogo} alt="Soft Search Logo" />
+            <img src={softsearchlogo} alt="Soft Search Logo" />{' '}
           </a>
           <div className="content">
             <h2 className="major">Soft Search</h2>
@@ -103,8 +135,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-
-      <section id="one" className="wrapper spotlight style1">
+      <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
           <a
             href="https://marvel-react-api-app.netlify.app/"
@@ -133,43 +164,6 @@ const IndexPage = () => (
 
             <a
               href="https://marvel-react-api-app.netlify.app/"
-              target="blank"
-              className="special"
-            >
-              Go To App
-            </a>
-          </div>
-        </div>
-      </section>
-      <section id="two" className="wrapper alt spotlight style2">
-        <div className="inner">
-          <a
-            href="https://eltaco.herokuapp.com/"
-            target="blank"
-            className="image"
-          >
-            <img src={eltacologo} alt="El Taco Logo " />
-          </a>
-          <div className="content">
-            <h2 className="major">El Taco</h2>
-            <h5>&lt; Taco Recipe Search Web Application /&gt;</h5>
-
-            <p>
-              Simple Search of Taco recipes displayed on homepage. Recipe page
-              displays image, description, ingredient list, and cooking
-              instructions.
-            </p>
-
-            <a
-              href="https://github.com/mj305/ElTacoCopy"
-              target="blank"
-              className="special"
-            >
-              GitHub Repo
-            </a>
-
-            <a
-              href="https://eltaco.herokuapp.com/"
               target="blank"
               className="special"
             >
