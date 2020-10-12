@@ -35,10 +35,9 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <h2 className="major">
-              NASA International Space Apps Challenge 2020 HackathonCoast
-              Busters
+              NASA International Space Apps Challenge 2020 Hackathon
             </h2>
-            <h5>&lt; Team "Coast Busters" /&gt;</h5>
+            <h5>&lt; Coast Busters /&gt;</h5>
 
             <p>
               Developed an app prototipe using NASA's data to laverage Earth
