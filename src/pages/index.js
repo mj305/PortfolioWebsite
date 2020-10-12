@@ -37,7 +37,7 @@ const IndexPage = () => (
             <h2 className="major">Coast Busters</h2>
             <h5>&lt; Flood of Ideas /&gt;</h5>
 
-            <p>NASA International Space Apps Challenge 2020</p>
+            <p>NASA International Space Apps Challenge 2020 Hackathon</p>
 
             <a
               href="https://github.com/mj305/NasaHackathon"
