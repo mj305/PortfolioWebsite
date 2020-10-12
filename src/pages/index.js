@@ -34,10 +34,17 @@ const IndexPage = () => (
             <img src={nasa} alt="Coast Busters Logo" />
           </a>
           <div className="content">
-            <h2 className="major">Coast Busters</h2>
-            <h5>&lt; Flood of Ideas /&gt;</h5>
+            <h2 className="major">
+              NASA International Space Apps Challenge 2020 HackathonCoast
+              Busters
+            </h2>
+            <h5>&lt; Team "Coast Busters" /&gt;</h5>
 
-            <p>NASA International Space Apps Challenge 2020 Hackathon</p>
+            <p>
+              Developed an app prototipe using NASA's data to laverage Earth
+              observation and critical infrastructure datasets to estimate
+              damages to infrastructure caused by flooding.
+            </p>
 
             <a
               href="https://github.com/mj305/NasaHackathon"
