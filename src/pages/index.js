@@ -141,7 +141,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="two" className="wrapper alt spotlight style2">
+      {/* <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
           <a
             href="https://marvel-react-api-app.netlify.app/"
@@ -177,7 +177,7 @@ const IndexPage = () => (
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
           <div className="content">
