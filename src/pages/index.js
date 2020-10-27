@@ -3,8 +3,8 @@ import Layout from '../components/Layout';
 
 import softsearchlogo from '../assets/images/softsearchlogo.png';
 import shortlyLogo from '../assets/images/shortlyLogo.svg';
-import marvelLogo from '../assets/images/marvelLogo.png';
-import nasa from '../assets/images/nasa.png';
+/* import marvelLogo from '../assets/images/marvelLogo.png';
+ */import nasa from '../assets/images/nasa.png';
 import aboutpic from '../assets/images/aboutpic.jpg';
 import MBResume from '../assets/images/MBResume.pdf';
 import MBPSM from '../assets/images/MBPSM.pdf';
