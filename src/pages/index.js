@@ -141,6 +141,49 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
+
+     <section id="two" className="wrapper alt spotlight style2">
+        <div className="inner">
+          <a
+            href="https://thereignexperience.netlify.app/"
+            target="blank"
+            className="image"
+          >
+            <h3 
+            style={{fontFamily: "Great Vibes",
+            fontSize: "2.5rem"
+          }}>
+            Reign
+            </h3>
+          </a>
+          <div className="content">
+            <h2 className="major">The Reign Experience</h2>
+            <h5>&lt; eCommerce /&gt;</h5>
+
+            <p>
+              eCommerce prototipe store with products, add to cart, and checkout with Stripe.
+            </p>
+
+            <a
+              href="https://github.com/mj305/eCommerce"
+              target="blank"
+              className="special"
+            >
+              GitHub Repo
+            </a>
+
+            <a
+              href="https://thereignexperience.netlify.app/"
+              target="blank"
+              className="special"
+            >
+              Go To App
+            </a>
+          </div>
+        </div>
+      </section>
+
+
       {/* <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
           <a
